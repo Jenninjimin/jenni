@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.header { 
+     background-image: linear-gradient(
+         rgba(0,0,0,0.7),
+         rgba(0,0,0,0.7)),
+         url(images/perrito.jpg);
+         background-position: center bottom;
+         background-repeat: no-repeat;
+         background-size: cover;
+         min-height: 70vh;
+         
+         display: flex;
+         align-items: center;
+    
+}
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.Logo { 
+    color: #FFFDFC;
+    font-size: 25;
+    font-weight: 800;
+
+}
+
+
+.menu .navbar ul li { 
+    position: relative;
+    float: left;
+}
+
+
+.menu .navbar ul li a { 
+    font-size: 18px;
+    padding: 20px;
+    color: #90ce7b;
+    display: block;
+    font-weight: 600;
+}
+
+
+.menu .navbar ul li a:hover{
+    color: #ffffff;
+}
+
+
+#menu { 
+   display: none;
+}
+
+
+.menu-icono { 
+    width: 25px;
+}
+
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+
+  .header-content {
+    text-align: center;
+  }
+
+
+  .header-content h1{ 
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+
+
+  .header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+  }
+
+
+  .btn-1 {
+     display: inline-block;
+     padding: 11px 35px;
+     background-color: #7ac474;
+     color: #F9FAFC;
+     text-transform: uppercase;
+  }
+
+
+  .btn-1:hover {
+      background-color: #9debab;
+  }
+
+
+  
+  .animalitos {
+  padding: 100px 0;
+  background-color: #E1E2E6;
+  position: relative;
+  }
+
+
+    .animalitos-content{
+text-align: center;
+    }
+        .animalitos-content h2{
+            font-size: 55px;
+            line-height: 70px;
+            color: #323337;
+            text-transform: uppercase;
+            padding: 0 250px;
+            margin-bottom: 15px;
+        }
+
+
+           .txt-p {
+            font-size: 16px;
+            color: #414247;
+            padding: 0 250;
+            margin-bottom: 35px;
+        }
+
+
+              .animalitos-group  {
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 50px;
+            }
+
+
+                   .animalitos-1 img {
+                     width: 200px;
+                    }
+                    
+                    .animalitos-img {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                    }
+
+
+                            
+
+
+
+
+   
+
+
+    .menu .narvar {
+       position: absolute;
+       top: 100;
+       left: 0;
+       right: 0;
+       background-color: #323337;
+       display: none;
+    }
+
+
+        .menu .narvar ul li {
+     width: 100%;
+        }
+
+
+ #menu:checked ~ , .navbar {
+   display: initial;
+
+
+}
+    .header {
+       min-height: 0vh;
+    }
+
+
+        .header-content {
+    padding: 100px 30px;
+        }
+
+
+.header-content p {
+    padding: 0;
+}
+
+
+   .animalitos {
+padding: 30px;
+   } 
+
+
+    .animalitos-content h2 {
+ padding: 0;
+}
+
+
+        .txt-p {
+   padding: 0;
+        } 
+            .animalitos-group {
+flex-direction: column;
+   margin-bottom: 0;
+   }
+
+
+.animalitos-img {
+    display: none;
+}
+
+
+    .services {
+padding: 30px;
+    }
+
+
+        .services-content p {
+padding: o;
+        }
+
+
+.services-group {
+   flex-direction: column;
+}
+
+
+.services-1 {
+    margin-bottom: 25;
+}
+
+
+    .general {
+flex-direction: column;
+}
+
+
+        .general-1 {
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+
+
+        }
+
+
+.blog {
+  padding: 100px 0;
+  text-align: center;
+}
+   .blog-content {
+display: flex;
+justify-content: space-between;
+color: #FFFDFC;
+}
+.blog-1 {
+    padding: 15px 55px;
+  }
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+ .blog-1 h3{
+    padding: 0;
+    color: #323337;
+    
+
+
+
+}
+    .footer {
+         padding: 100px 0;
+          background-color: #114423;
+}
+   .footer-content {
+         display: flex;
+         justify-content: space-between;
+}
+
+
+     .link h3 { 
+         font-size: 18px;
+         color: #F9FAFC;
+           margin-bottom: 15px;
+}
+.link a { 
+  font-size: 16px;
+  color: #C5C5C5;
+  display: block;
+  margin-bottom: 15px;
+}
+.animalitos-1 img{
+    transform: scale(0.9);
+    transition: all  0.5s linear;
+}
+
+@media(max-width: 991px){
+
+  .menu {
+      padding: 30px;
+  }
+  .menu label{
+      display: initial;
+  }
+  .menu .navbar{
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #303030;
+      display: none;
+  }
+
+  .menu .navbar ul li {
+      width: 100%;
+
+  }
+  .menu .navbar ul li a{
+      color: #ffffff;
+  }
+  .menu .navbar ul li a:hover{
+      color: #bebebe;
+
+  }
+  #menu:checked ~ .navbar {
+      display: initial;
+  }
+  .header{
+    min-height: 0vh;
+  }
+  .header-content{
+    padding: 100px 30px;
+  }
+  .header-content p {
+    padding: 0;
+  }
+}
